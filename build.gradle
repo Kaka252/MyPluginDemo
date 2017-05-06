@@ -3,11 +3,15 @@
 buildscript {
     repositories {
         jcenter()
+        maven {
+            url "https://dl.bintray.com/neroisnovice252/maven"
+        }
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:2.3.1'
         classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.0'
         classpath 'com.github.dcendents:android-maven-plugin:1.2'
+        classpath 'zhouyou.plugin:myplugin:1.0.0'
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
     }
