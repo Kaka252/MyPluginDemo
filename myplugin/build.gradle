@@ -1,0 +1,17 @@
+apply plugin: 'groovy'
+apply plugin: 'maven'
+
+dependencies {
+    compile gradleApi()
+    compile localGroovy()
+}
+
+// 代码仓库
+repositories{
+    jcenter()
+}
+
+group='zhouyou.plugin'
+version='1.0.0'
+
+apply from: '../bintray.gradle'
