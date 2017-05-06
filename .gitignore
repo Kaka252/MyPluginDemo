@@ -12,7 +12,10 @@ gradle.properties
 .idea/misc.xml
 .idea/encodings.xml
 .idea/modules.xml
+.idea/vcs.xml
 .DS_Store
 /build
 /captures
 .externalNativeBuild
+app/libs/
+app/src/main/res/drawable/
