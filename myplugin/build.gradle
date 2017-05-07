@@ -11,7 +11,7 @@ repositories{
     jcenter()
 }
 
-group='zhouyou.plugin'
-version='1.0.0'
+version = PROJ_VERSION
+group = PROJ_GROUP
 
 apply from: '../bintray.gradle'

@@ -1,4 +1,5 @@
 apply plugin: 'com.android.application'
+apply plugin: 'com.zhouyou.plugin'
 
 android {
     compileSdkVersion 25
